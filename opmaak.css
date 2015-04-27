@@ -1,0 +1,84 @@
+/***************************
+****************************
+CSS OPMAAK DOCUMENT
+****************************
+***************************/
+
+/***************************
+Zet alle waarden op 0
+***************************/
+margin : 0;
+padding : 0;
+border : 0;
+font-size : 100%;
+font : inherit;
+vertical-align : baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+display : block;
+}
+body {
+line-height : 1;
+}
+ol, ul {
+list-style : none;
+}
+blockquote, q {
+quotes : none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+content : '';
+content : none;
+}
+table {
+border-collapse : collapse;
+border-spacing : 0;
+}
+
+/***************************
+Body & De verschillende DIVS
+***************************/
+body {
+background-color : #000000;
+}
+
+#banner
+{
+background-color : transparent;
+margin-top : 30px;
+margin-bottom : 30px;
+margin-left : auto;
+margin-right : auto;
+width : 1475px;
+height : 238px;
+}
+
+#content
+{
+background-color : #2A3B3B;
+margin-top : 30px;
+margin-bottom : 30px;
+margin-left : auto;
+margin-right : auto;
+width : 1000px;
+height : auto;
+float: center;
+}
+
+
+#content>p
+{
+  font-size:20px;
+}
+
+a
+{
+  color: #339933;
+  text-decoration: none;
+}
+
+a:hover
+{
+  color: red;
+  text-decoration: none;
+}
